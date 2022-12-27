@@ -1,0 +1,6 @@
+projectKey=org.example:TestChoucair
+serverUrl=http://54.173.113.48:9000
+serverVersion=7.9.6.41879
+dashboardUrl=http://54.173.113.48:9000/dashboard?id=org.example%3ATestChoucair
+ceTaskId=AYVVKgak-Ev3HSYIZleC
+ceTaskUrl=http://54.173.113.48:9000/api/ce/task?id=AYVVKgak-Ev3HSYIZleC

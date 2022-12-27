@@ -29,8 +29,11 @@ public class newMeetingPage extends PageObject {
     public static final Target START_DATE = Target.the("Campo para ingresar fecha de inicio")
             .locatedBy("(//*[@class='fa fa-calendar'])[1]");
 
+    public static final Target NEXT_MONTH_START = Target.the("Campo para cambiar de mes")
+            .locatedBy("//*[@class='ui-datepicker-next ui-corner-all']");
+
     public static final Target SELECT_START_DATE = Target.the("Campo para ingresar fecha de inicio")
-            .locatedBy("//*[@id='ui-datepicker-div']//a[contains(text(),'28')]");
+            .locatedBy("//*[@id='ui-datepicker-div']//a[contains(text(),'24')]");
 
     public static final Target START_BTN_TIME = Target.the("Menú desplegable de horas para inicio")
             .locatedBy("(//*[@class='editor s-DateTimeEditor time'])[1]");
@@ -41,8 +44,11 @@ public class newMeetingPage extends PageObject {
     public static final Target END_DATE = Target.the("Campo para ingresar fecha de fin")
             .locatedBy("(//*[@class='fa fa-calendar'])[2]");
 
+    public static final Target NEXT_MONTH_END = Target.the("Campo para cambiar de mes")
+            .locatedBy("//*[@class='ui-datepicker-next ui-corner-all']");
+
     public static final Target SELECT_END_DATE = Target.the("Campo para ingresar fecha de fin")
-            .locatedBy("//*[@id='ui-datepicker-div']//a[contains(text(),'28')]");
+            .locatedBy("//*[@id='ui-datepicker-div']//a[contains(text(),'24')]");
 
     public static final Target END_BTN_TIME = Target.the("Menú desplegable de horas para fin")
             .locatedBy("(//*[@class='editor s-DateTimeEditor time'])[2]");

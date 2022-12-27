@@ -67,6 +67,4 @@ public class newOrderPage extends PageObject {
 
     public static final Target ORDERDATE_VALIDATE = Target.the("Opciones de Attendee")
             .locatedBy("//*[contains(text(), '{0}')]");
-
-
 }

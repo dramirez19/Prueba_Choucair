@@ -4,6 +4,7 @@ apply plugin: 'eclipse'
 //apply plugin: 'net.serenity-bdd.aggregator'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
@@ -36,9 +37,12 @@ buildscript {
         classpath "net.serenity-bdd:serenity-gradle-plugin:3.1.16"
         classpath "net.serenity-bdd:serenity-emailer:1.9.36"
         classpath "net.serenity-bdd:serenity-single-page-report:2.1.4"
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.5.0.2730"
     }
 
 }
+
+apply plugin: "org.sonarqube"
 
 dependencies {
 
