@@ -13,3 +13,4 @@ Feature: Crear una "Nueva Meeting"
       | meeting_number | 1234                   |
     Then Valida que se haya creado correctamente la reunion bajo el nombre "Sprint 1 - Follow up"
 
+

@@ -40,4 +40,5 @@ public class newMeetingStepDefinitions {
     public void validaQueSeHayaCreadoCorrectamenteLaReunionBajoElNombre(String texto) {
         theActorInTheSpotlight().should(seeThat(validateText.with(MEETINGNAME_VALIDATE, texto), equalTo(texto)));
     }
+
 }

@@ -14,7 +14,7 @@ public class newMeetingPage extends PageObject {
     public static final Target NUEVO_MEETING = Target.the("Botón de Nuevo Meeting")
             .locatedBy("(//*[@class='button-inner'])[1]");
 
-    public static final Target MEETING_NAME = Target.the("Campo paa ingresar Meeting Name")
+    public static final Target MEETING_NAME = Target.the("Campo para ingresar Meeting Name")
             .locatedBy("//*[@id='Serenity_Pro_Meeting_MeetingDialog10_MeetingName']");
 
     public static final Target MEETING_TYPE_DROPDOWN = Target.the("Menú desplegable para escoger el Meeting Type")
